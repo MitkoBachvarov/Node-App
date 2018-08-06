@@ -1,0 +1,25 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitkoBachvarov/Node-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MitkoBachvarov/Node-App/issues"
+  },
+  "homepage": "https://github.com/MitkoBachvarov/Node-App#readme",
+  "dependencies": {
+    "csv": "^3.1.0",
+    "moment": "^2.22.2",
+    "request": "^2.87.0",
+    "url": "^0.11.0"
+  }
+}
