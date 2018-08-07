@@ -5,6 +5,7 @@ let csv = require('csv');
 let url = require('url');
 
 let create_html = require('./create_html');
+let update_log = require('./update_log');
 
 let json_request_body = undefined;
 let csv_request_body = undefined;
@@ -30,9 +31,11 @@ http.createServer(function (req, res){
         let request_url = url.parse(req.url);
         switch (request_url.path){
             case '/json':
+                update_log.updateLogFile('Accessed JSON data');
                 res.end(create_html.createHTMLStringFromJson(html_content,(JSON).parse(json_request_body)));
                 break;
             case '/csv':
+                update_log.updateLogFile('Accessed CSV data');
                 res.end(create_html.createHTMLStringFromCsv(html_content, csv_request_body));
                 break;
         }
