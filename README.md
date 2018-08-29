@@ -1,4 +1,4 @@
-# Node-App
+# JSON and CSV file convertor
 
 
 This is a simple Node.js application that converts a JSON or CSV file into a readable table.
