@@ -4,6 +4,7 @@
 This is a simple Node.js application that converts a JSON or CSV file into a readable table.
 
 Start app using: node index.js
+
 App runs on Port 8080. 
 
 The JSON link is: https://www.bnefoodtrucks.com.au/api/1/trucks
